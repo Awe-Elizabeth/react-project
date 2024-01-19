@@ -34,15 +34,19 @@ function App (){
           <button onClick={() => setColor('green')} 
           className='outline-none px-4 py-1 rounded-full text-white shadow-lg text-black' style={{backgroundColor: 'green'}}
           >Green</button>
+
           <button onClick={() => setColor('blue')} 
           className='outline-none px-4 py-1 rounded-full text-white shadow-lg text-black' style={{backgroundColor: 'blue'}}
           >blue</button>
+
           <button onClick={() => setColor('orange')} 
           className='outline-none px-4 py-1 rounded-full text-white shadow-lg text-black' style={{backgroundColor: 'orange'}}
           >orange</button>
+
           <button onClick={() => setColor('purple')} 
           className='outline-none px-4 py-1 rounded-full text-white shadow-lg text-black' style={{backgroundColor: 'purple'}}
           >purple</button>
+          
           <button onClick={() => setColor('grey')} 
           className='outline-none px-4 py-1 rounded-full text-white shadow-lg text-black' style={{backgroundColor: 'grey'}}
           >grey</button>
